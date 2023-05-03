@@ -1,0 +1,58 @@
+# Ignore Composer dependencies
+/vendor/
+
+# Ignore PHPStorm project files
+.idea/
+
+# Ignore PHPUnit generated files
+/phpunit.xml
+/phpunit.xml.dist
+/phpunit.result.cache
+
+# Ignore PHPStorm project files
+/.phpstorm.meta.php
+
+# Ignore PHP_CodeSniffer cache
+/.phpcs/
+
+# Ignore PHPCS Fixer cache
+/.php-cs-fixer.cache
+
+# Ignore PHPStan cache
+/.phpstan/
+
+# Ignore PHPDocs generated files
+/docs/
+
+# Ignore PHP Error log
+/php_errors.log
+
+# Ignore environment-specific configuration files
+/.env
+/.env.*
+
+# Ignore any log files
+/log/*.log
+
+# Ignore session files
+/sessions/
+
+# Ignore cache files
+/cache/
+
+# Ignore compiled assets
+/public/build/
+/public/uploads/
+
+# Ignore application-specific files and directories
+/app/config/
+/app/storage/
+
+# Ignore development and testing environment files
+/development/
+/tests/
+/phpunit.xml
+/phpunit.xml.dist
+
+# Ignore build artifacts
+/build/
