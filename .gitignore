@@ -50,7 +50,6 @@
 
 # Ignore development and testing environment files
 /development/
-/tests/
 /phpunit.xml
 /phpunit.xml.dist
 
