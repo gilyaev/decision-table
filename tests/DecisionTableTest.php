@@ -75,7 +75,7 @@ class DecisionTableTest extends TestCase
     /**
      * @dataProvider flightsDataProvider
      */
-    public function testAddition(FlightInformation $flight, bool $expectedResult): void
+    public function testDecisionTable(FlightInformation $flight, bool $expectedResult): void
     {
         $conditions = [
             new FlightFromEUCondition(new CountriesDictionary(), [true, true, true, true, false]),
